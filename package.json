@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/grasseum/grass_web.git"
+    "url": "git+https://github.com/grasseum/grasseum_resources.git"
   },
   "keywords": [
     "concat"
@@ -16,7 +16,7 @@
   "author": "Pein Freccs",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grasseum/grass_web/issues"
+    "url": "https://github.com/grasseum/grasseum_resources/issues"
   },
-  "homepage": "https://github.com/grasseum/grass_web#readme"
+  "homepage": "https://github.com/grasseum/grasseum_resources#readme"
 }
