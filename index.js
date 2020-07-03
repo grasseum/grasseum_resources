@@ -1,4 +1,2 @@
-exports.logs = function(){
 
-    console.log.apply(this,arguments)
-}
+exports.httpRequestMultipleURL = require("grasseum_resources/lib/http_multiple_url");
