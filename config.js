@@ -1,19 +1,24 @@
 
-var http = require("http");
-var https = require("https");
-exports.http_assign = function(){
-    var action = {
-        "http":{
-            "module":http,
-            "port":80,
-            "method":"GET"
+const http = require("http");
+const https = require("https");
+
+exports.http_assign = function () {
+
+    const action = {
+        "http": {
+            "method": "GET",
+            "module": http,
+            "port": 80
+
         },
-        "https":{
-            "module":https,
-            "port":443,
-            "method":"GET"
+        "https": {
+            "method": "GET",
+            "module": https,
+            "port": 443
+
         }
-    }
+    };
 
     return action;
-}
+
+};
